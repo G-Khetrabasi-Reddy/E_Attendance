@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "488233407419",
+    "firebase_url": "https://e-attendance-ucpes-default-rtdb.firebaseio.com",
+    "project_id": "e-attendance-ucpes",
+    "storage_bucket": "e-attendance-ucpes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488233407419:android:e1f4a1e4f5a7408623ea9e",
+        "android_client_info": {
+          "package_name": "com.example.e_attendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1wUzb-FaRSy8LKgnNcPg-A_nQip9f52c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

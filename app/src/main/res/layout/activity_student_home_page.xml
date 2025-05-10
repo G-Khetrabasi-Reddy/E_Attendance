@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentHomePage"
+    android:background="@drawable/background">
+
+    <include
+        android:id="@+id/takeattendancebar"
+        layout="@layout/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        />
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:focusableInTouchMode="false"
+        android:forceHasOverlappingRendering="true"
+        android:text="Welcome : Student"
+        android:textAllCaps="true"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:padding="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.056"
+        tools:fontFeatureSettings="66"
+        tools:layout_editor_absoluteX="8dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ftoolbar"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/background1">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ViewAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="View attendance"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.364"
+                android:background="@drawable/button1"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                tools:layout_editor_absoluteX="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/CheckAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check attendance"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.364"
+                android:background="@drawable/button1"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                tools:layout_editor_absoluteX="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/change_password_student"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button1"
+                android:text="Change Password"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/logoutStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/logout"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/button1"
+                app:layout_constraintVertical_bias="0.626"
+                android:textColor="#fff"
+                tools:layout_editor_absoluteX="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

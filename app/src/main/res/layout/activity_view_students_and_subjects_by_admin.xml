@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ViewStudentsAndSubjectsByAdmin">
+
+    <include
+        android:id="@+id/ftoolbar"
+        layout="@layout/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="View Student/Subject List"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/background1"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/Class"
+            android:background="@drawable/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:spinnerMode="dropdown"/>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/Semester"
+            android:background="@drawable/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:spinnerMode="dropdown"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ViewStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:text="View Student's"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:background="@drawable/button1"
+                android:textColor="#ffff" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ViewSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="View Subject's"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/button1"
+            android:textColor="#ffff" />
+    </LinearLayout>
+</LinearLayout>

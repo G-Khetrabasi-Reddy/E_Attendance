@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">E-Attendance</string>
+    <string name="image_description">Description of your image</string>
+    <string name="username_hint">Enter User Name</string>
+    <string name="userid_hint">Enter User ID</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="login_text">Log-in</string>
+    <string name="btn_view_attendance">View Attendance</string>
+    <string name="type">Select Type</string>
+    <string name="Subject_name">Subject Name</string>
+    <string name="Subject_Id">Subject ID</string>
+    <string name="present_count">Present: %d</string>
+    <string name="absent_count">Absent: %d</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="logout">Logout</string>
+</resources>
